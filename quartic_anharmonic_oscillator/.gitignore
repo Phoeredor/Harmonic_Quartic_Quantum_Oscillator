@@ -1,0 +1,23 @@
+# Build artifacts
+bin/
+*.o
+*.a
+*.so
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+.pytest_cache/
+
+# Editor and OS noise
+.DS_Store
+*~
+*.swp
+*.swo
+
+# Temporary local files
+*.tmp
+*.temp
+*.bak

@@ -1,0 +1,35 @@
+# Compiler outputs
+obj/
+bin/
+*.o
+*.d
+*.a
+*.so
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*~
+.DS_Store
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Module runtime data
+harmonic_oscillator/data/*
+!harmonic_oscillator/data/.gitignore
+!harmonic_oscillator/data/README.md
+quartic_anharmonic_oscillator/data/*
+!quartic_anharmonic_oscillator/data/.gitignore
+!quartic_anharmonic_oscillator/data/README.md
+
+# Plot workflows retain PNGs only; the future report PDF is not ignored.
+**/plots/**/*.pdf

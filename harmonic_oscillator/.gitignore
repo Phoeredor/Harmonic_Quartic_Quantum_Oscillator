@@ -1,0 +1,104 @@
+# ============================================================
+# Build artifacts
+# ============================================================
+
+bin/
+obj/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.d
+a.out
+qho_pimc
+
+
+# ============================================================
+# Python cache and virtual environments
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+
+# ============================================================
+# Generated simulation data
+# ============================================================
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/tmp/
+data/processed/diagnostics/
+data/processed/tmp/
+
+# Large block/raw production files should not be versioned.
+data/processed/production/*_blocks.dat
+data/processed/production/*_raw.dat
+
+
+# ============================================================
+# Generated plots and internal diagnostics
+# ============================================================
+
+plots/tmp/
+
+
+# ============================================================
+# Generated reports and local notes
+# ============================================================
+
+docs/generated/
+docs/tmp/
+
+
+# ============================================================
+# Logs, temporary files, backups
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.old
+*.bak
+*.bak_*
+*.backup
+*.swp
+*.swo
+*~
+
+
+# ============================================================
+# Local archives and compressed working copies
+# ============================================================
+
+archive/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+
+# ============================================================
+# Editor, OS and local environment files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
